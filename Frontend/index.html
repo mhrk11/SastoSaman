@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sasto Saman</title>
+    <link rel="stylesheet" href="index.css">
+
+
+    <script> 
+
+    var i = 0;
+    var images = [];
+    var time = 5000;
+
+    images[0] = "img1.jpg";
+    //images[1] = "img2.jpg";
+
+
+    function changeImg(){
+
+       document.slide.src = images[i];
+
+       if(images.length - 1)
+       {
+           i++;
+       }else{
+           i = 0;
+       }
+
+       setTimeout("changeImg()", time);
+    }
+
+    window.onload = changeImg;
+
+    
+    
+    </script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <ul class="topHeader">
+            <li> Contact Us: 9860103809 / 9866011039 </li>
+
+            <li>
+                <ul class="inside">
+                    <li>Register </li> | <li>LogIn</li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="search">
+        <h2 class="Sasto" style="margin-left:-17px;"> Sasto <span class="Saman">Saman</span></h2>
+<div class = "middleSearch"> 
+        <form action ="#" class="selectionCategory">
+            <select name="Categories" id="Categories">
+            <option value = "books" class="items"> Books</option>
+            <option value = "utensils" class= "items"> Utensils</option>
+            <option value = "furniture" class="items">  Furniture </option> 
+            <option value = "electronics" class="items">  Electronics </option>
+            <option value = "stationery" class="items">  Stationery </option>
+            <option value = "clothing" class="items">  Clothing </option>
+            </select>
+        </form>
+       
+        
+        <div class = "searchBox">
+        <input class= "searchButton" type="text" placeholder="I am searching for" name="search">
+        <button type="submit" class="submitButton">Search</button>
+        </div>
+    
+        </div>
+
+        <div class="endCart">
+        <div class = "shoppingCart"> 
+                <p class="makeitbold">SHOPPING CART</p>
+                <p class="lightenit">0 item(s) - Rs 0.00</p> 
+            
+        </div>
+        <div class = "iconMoney"> Icon</div>
+        </div>
+</div>
+
+
+<main class>
+
+<nav> 
+    
+<h2> CATEGORIES </h2>
+
+<ul class="navigation"> 
+   <li><a class="selected" href="#"> Home </a></li>
+   <li><a href="#"> On Sale </a></li>
+   <li><a href="#"> On Demand </a></li>
+   <li> <a href="#"> Profile</a></li>
+
+</ul>
+</nav>
+<hr class="redLine">
+<div class = "mainBody">
+<aside class = "asideCategory"> 
+    <ul>
+        <li><a href="#"> Books</a></li>
+        <li><a href="#"> Notes</a></li>
+        <li><a href="#"> Furniture </a></li>
+        <li><a href="#"> Utensils</a></li>
+        <li><a href="#"> Electronics </a></li>
+        <li><a href="#"> Stationery </a></li>
+        <li><a href="#"> Clothing </a></li>
+    </ul>
+</aside>
+
+<section> 
+    <img name = "slide">
+
+</section>
+
+</div>
+
+
+
+</main>
+
+<!-- First Section / Books Section-->
+
+<hr class="sectionDivider"> 
+<section class="viewSideSection">
+
+<div class="firstSideSection">
+<h3 class="sectionHeader"> Most Popular/Trending Book</h3>
+    <img src="book.jpg" class="imgSideSection">
+</div>
+
+
+<aside class="productImages"> 
+<div class = "imginsideSection">
+    <a href="#" class="productSelection">
+    <img src="book.jpg" class="insideSection"> 
+    <p> Instrumentation </p>
+    </a>
+
+    <span class = "productMoney"> Rs. 200 </span>
+    <span class="notProductMoney"> Rs. 250 </span>
+</div>
+<div class = "imginsideSection">
+    <a href="#" class="productSelection">
+    <img src="book.jpg" class="insideSection"> 
+     <p> Instrumentation </p>
+    </a>
+
+    <span class = "productMoney"> Rs. 200 </span>
+    <span class="notProductMoney"> Rs. 250 </span>
+</div>
+<div class = "imginsideSection">
+    <a href="#" class="productSelection">
+    <img src="book.jpg" class="insideSection"> 
+     <p> Instrumentation </p>
+    </a>
+    <span class = "productMoney"> Rs. 200 </span>
+    <span class="notProductMoney"> Rs. 250 </span>
+</div>
+</aside>
+
+</section>
+
+
+<hr class="sectionDivider"> 
+
+
+
+<!-- Second Section / Utensils Section-->
+
+
+
+
+<section class="viewSideSection">
+
+    <div class="firstSideSection">
+    <h3 class="sectionHeader"> Utensils </h3>
+        <img src="book.jpg" class="imgSideSection">
+    </div>
+    
+    
+    <aside class="productImages"> 
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+        <p> Instrumentation </p>
+        </a>
+    
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+         <p> Instrumentation </p>
+        </a>
+    
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+         <p> Instrumentation </p>
+        </a>
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    </aside>
+    
+    </section>
+
+
+<hr class="sectionDivider"> 
+
+
+<!-- Third Section / Furniture Section-->
+
+
+<section class="viewSideSection">
+
+    <div class="firstSideSection">
+    <h3 class="sectionHeader"> Furniture </h3>
+        <img src="book.jpg" class="imgSideSection">
+    </div>
+    
+    
+    <aside class="productImages"> 
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+        <p> Instrumentation </p>
+        </a>
+    
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+         <p> Instrumentation </p>
+        </a>
+    
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    <div class = "imginsideSection">
+        <a href="#" class="productSelection">
+        <img src="book.jpg" class="insideSection"> 
+         <p> Instrumentation </p>
+        </a>
+        <span class = "productMoney"> Rs. 200 </span>
+        <span class="notProductMoney"> Rs. 250 </span>
+    </div>
+    </aside>
+    
+    </section>
+
+
+    <button class = "viewAll"><span>View All</span> </button>
+
+
+
+
+<!-- Footer -->
+
+<footer class="includesFooter"> 
+    <h2 class="Sasto"> Sasto <span class="Saman">Saman</span></h2>
+
+<div class="accountDetails"> 
+
+    <ul class="accountListFooter"> 
+        <li class="myAccount">My Account</li>
+        <a href="#" class="registrationFooter"><li>Login</li></a>
+        <a href="#" class="registrationFooter"><li>Register</li></a>
+    </ul>
+</div>
+
+
+
+    <div class="footerExplanation">
+        <h3 class="inFooterAboutUs"> 
+            Contact Details:
+        </h3>
+        <p> sulabhghimere@gmail.com<br>
+            prashantpant@gmail.com<br>
+        </p>
+
+        
+    </div>
+
+    
+</footer>
+
+<div class="copywrite">
+    <p> &copy; 2021 Copyright. Powered by Mahango Company</p>
+
+
+</div>
+
+
+
+</body>
+
+</html>
